@@ -1,0 +1,89 @@
+
+body{
+    background-color: rgb(14, 15, 14);
+}
+
+
+
+.nav {
+    display:flex;
+    background: aquamarine; 
+    padding: 0.5px 20px;
+    justify-content: space-between;
+   
+} 
+
+
+nav ul{
+    display: flex;
+   
+}
+
+nav ul li{
+    display: flex;
+}
+
+
+nav ul li a {
+    margin: 15px 20px;
+    font-size:16px; 
+    color:green; 
+    text-decoration:none;
+}
+
+#about{
+    background-color: aquamarine;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+
+ #about p{
+    color:black;
+}
+
+h1{
+    color:green;
+}
+
+h2{
+    color: green;
+}
+
+
+h3{
+    color: green;
+}
+
+
+p{
+    color: aliceblue;
+}
+
+a{
+    color: blue
+}
+
+label{
+    color:aliceblue ;
+}
+
+.main{
+    display:flex;
+    justify-content: space-between ;
+    padding: 50px;
+}
+
+aside{
+    text-align: justify;
+}
+
+footer {
+    text-align: center;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+footer p{
+    color:black
+}
