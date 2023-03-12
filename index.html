@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tululope's Portfolio Webpage</title>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
 
 </head>
 
@@ -13,138 +15,77 @@
 
 <body>
 
-    <div class="container" >
 
-        <div >
-            <div class="nav" >
-                <div>
-                    <h1>Portfolio</h1> 
 
-                </div>
-
-                <div>
-                    <nav class="menu" >
-                        <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#learn">Learn With Me</a></li>
-                            <li><a href="#resume">Resume</a></li>
-                            <li><a href="contact">Contact</a></li>
-                        </ul>  
-                    </nav>
-
-                </div>
-
-                
-        
-                
-                
-               
-            </div>
-
+    <nav>
+        <div class="logo"><h1>Portfolio</h1></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#learn">Learn With Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul> 
         </div>
+        
+    </nav>
 
-        <div>
-
-            <main >
-                <div class="main" >
-
-                    <div >
-                    
-                        <section>
-                            <h2>How It Started</h2>
-                            <video src="tolulope.MOV" controls autoplay type="mov/mpeg" width="500" height="500"></video>
-                            
-
-                        </section>
-
-
-                        <section id="learn">
-                            <h2>Learn With Me</h2>
-                            <p>Join me on my learning path today, pick any of the fullowing skills to become my tech buddy.</p>
-                            <form>
-                                <label for="full name">Full Name:</label>
-                                <input type="text" placeholder="full name" /><br>
+    <main>
+        <section>
+            <div class="start">
+                <h2>How It Started</h2>
+                <video src="tolulope.MOV" controls autoplay type="mov/mpeg" width="500" height="500"></video>
+            </div>
+            <div id="learn">
+                <h2>Learn With Me</h2>
+                <p>Join me on my learning path today, pick any of the following skills to become my tech buddy.</p>
+                <form>
+                    <label for="full name">Full Name:</label>
+                    <input type="text" placeholder="full name" /><br>
                                 
-                                <label for="location">Location:</label>
-                                <input type="text" placeholder="location" /> <br>
+                    <label for="location">Location:</label>
+                    <input type="text" placeholder="location" /> <br>
 
-                                <label>Preferred Skill</label>
-                                <select>
-                                    <option value="HTML">HTML</option>
-                                    <option value="CSS">CSS</option>
-                                    <option value="Javascript"> Javascript </option>
+                    <label>Preferred Skill</label>
+                    <select>
+                        <option value="HTML">HTML</option>
+                        <option value="CSS">CSS</option>
+                        <option value="Javascript"> Javascript </option>
                                     
-                                </select><br>
+                    </select><br>
 
-                                <button type="submit"> Submit</button>
+                    <button type="submit"> Submit</button>
                                
                                 
-                            </form>
-                        
-                        </section>
-
-                        <section id="resume">
-                            <h2>Resume</h2>
-                            <p>Check out my <a href="https://github.com/TululopeBabajide" >github profile</a> </p>
-                            
-                        
-                        </section>
-                        
-                
-                
-        
-                    </div>
-        
-                    <div id="about">
-                        <aside>
-                            <h3>About Me</h3>
-                        <img src="IMG_7688.JPG" width="200" height="200">
-                        <p> I am Tululope Babajide, a web developer.<br>
-
-                            I am currently enrulled in a Full-stack software development program at GOMYCODE.<br>
-                            Skills I will learn include;
-                             
-                        </p>
-                        <ul type="square" >
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Javascript</li>
-                            <li>React.js</li>
-                            <li>Node.js</li>
-                        </ul>
-                        
-
-                        </aside>
-                        
-                        
-        
-                    </div>
-                </div>
-    
-            </main>
-    
-           
+                </form>
+            </div>
+            <div id="resume">
+                <h2>Resume</h2>
+                <p>Check out my <a href="https://github.com/TolulopeBabajide" >github profile</a> </p>
+            </div>
             
-            <footer>
-                    <p>Copyright 2022 </p>
-        
-            </footer>
+        </section>
+        <aside id="about">
+            <h3>About Me</h3>
+            <img src="IMG_7688.JPG" width="200" height="200">
+            <p> I am Tolulope Babajide, a web developer, I am currently enrolled in a Full-stack software development program at GOMYCODE. <br> Skills I will learn include;</p>
+            <ul type="square" >
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Copyright Tolulope Babajide 2022 </p>
+
+    </footer>
+
     
-            
-            
-    
-    
-    
-        </div>
-
-
-
-    </div>
-
-
-
-   
 
     
 </body>
